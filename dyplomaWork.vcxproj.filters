@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{0ab9a213-9fc0-4078-bd6c-3ee9fd569406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{000bf5be-9a20-4ede-a9e0-db189cc435a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\headers">
+      <UniqueIdentifier>{3e69db37-e8e2-4aba-a654-ef69ca7bc8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\sources">
+      <UniqueIdentifier>{282425b4-771a-4ef5-a1cf-a3cdbf668fec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dyplomaWork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Tokenizer.cpp">
+      <Filter>core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Route.cpp">
+      <Filter>core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Net.cpp">
+      <Filter>core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Wire.cpp">
+      <Filter>core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="db_cell.cpp">
+      <Filter>core\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="editWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MST.cpp">
+      <Filter>core\sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="dyplomaWork.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="dyplomaWork.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="dyplomaWork.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Definitions.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tokenizer.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenInf.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dyplomaWork.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Route.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Declarations.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawableObj.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="db_obj.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Net.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Wire.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="db_cell.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="db_pin.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="editWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MST.h">
+      <Filter>core\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
